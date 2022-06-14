@@ -1,11 +1,11 @@
-# CAP BusinessPartnerValidation
+# CAP BpValidationS4DR2
 _out
 *.db
 connection.properties
 default-*.json
+.cdsrc-private.json
 gen/
 node_modules/
-package-lock.json
 target/
 
 # Web IDE, App Studio
@@ -22,7 +22,9 @@ mta_archives/
 *.orig
 *.log
 
-#local Secrets
+*.iml
+*.flattened-pom.xml
 
-localSample.js
-appEnv.json
+# IDEs
+# .vscode
+# .idea
